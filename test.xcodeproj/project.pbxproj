@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815EF552183A553D00437283 /* Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 815EF551183A553D00437283 /* Rect.m */; };
+		815EF553183A553D00437283 /* Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 815EF551183A553D00437283 /* Rect.m */; };
 		818BE6B81837FE8D0037277C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818BE6B71837FE8D0037277C /* Foundation.framework */; };
 		818BE6BA1837FE8D0037277C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818BE6B91837FE8D0037277C /* CoreGraphics.framework */; };
 		818BE6BC1837FE8D0037277C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818BE6BB1837FE8D0037277C /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		815EF550183A553D00437283 /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
+		815EF551183A553D00437283 /* Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rect.m; sourceTree = "<group>"; };
 		818BE6B41837FE8D0037277C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818BE6B71837FE8D0037277C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		818BE6B91837FE8D0037277C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +121,8 @@
 				818BE6C91837FE8D0037277C /* Main.storyboard */,
 				818BE6CC1837FE8D0037277C /* ViewController.h */,
 				818BE6CD1837FE8D0037277C /* ViewController.m */,
+				815EF550183A553D00437283 /* Rect.h */,
+				815EF551183A553D00437283 /* Rect.m */,
 				818BE6CF1837FE8D0037277C /* Images.xcassets */,
 				818BE6BE1837FE8D0037277C /* Supporting Files */,
 			);
@@ -252,6 +258,7 @@
 				818BE6CE1837FE8D0037277C /* ViewController.m in Sources */,
 				818BE6C81837FE8D0037277C /* AppDelegate.m in Sources */,
 				818BE6C41837FE8D0037277C /* main.m in Sources */,
+				815EF552183A553D00437283 /* Rect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818BE6E31837FE8D0037277C /* testTests.m in Sources */,
+				815EF553183A553D00437283 /* Rect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +468,7 @@
 				818BE6E81837FE8D0037277C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		818BE6E91837FE8D0037277C /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				818BE6EB1837FE8D0037277C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
