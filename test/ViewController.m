@@ -34,7 +34,7 @@
     CGPoint newCenter;
     newCenter.x = _rect.center.x + _xy.x;
     newCenter.y = _rect.center.y + _xy.y;
-    _rect.center = newCenter;
+//    _rect.center = newCenter;
     
 }
      
